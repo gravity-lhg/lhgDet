@@ -1,0 +1,2 @@
+# lhgDet
+Object detection library
