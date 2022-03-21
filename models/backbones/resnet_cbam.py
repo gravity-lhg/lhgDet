@@ -1,7 +1,12 @@
+# Author: Haoguang Liu
+# Date: 2022.3.10 18:10 PM
+# Email: 1052979481@qq.com
+# Github: https://github.com/gravity-lhg
+
 import torch
 import torch.nn as nn
-import math
 import torch.utils.model_zoo as model_zoo
+import math
 
 __all__ = ['resnet18_cbam', 'resnet34_cbam', 'resnet50_cbam', 'resnet101_cbam', 'resnet152_cbam']
 
