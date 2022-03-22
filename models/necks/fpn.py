@@ -56,9 +56,9 @@ class FPN(nn.Module):
 if __name__=='__main__':
     # for print network
     net = FPN()
-    print(net)
+    # print(net)
 
-    # for test resnet network
+    # for test fpn network
     inputs = (torch.rand(3, 512, 224, 224).clone().detach(), 
               torch.rand(3, 1024, 112, 112).clone().detach(), 
               torch.rand(3, 2048, 56, 56).clone().detach())
