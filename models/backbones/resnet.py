@@ -19,7 +19,7 @@ model_urls = {
 }
 
 class BasicBlock(nn.Module):
-    # for resnet-18 and resnet-34
+    '''for resnet-18 and resnet-34'''
     expansion = 1
 
     def __init__(self, inplanes, planes, stride=1, downsample=None):
@@ -50,7 +50,7 @@ class BasicBlock(nn.Module):
         return out
 
 class Bottleneck(nn.Module):
-    # for resnet-50, resnet-101 and resnet-152
+    '''for resnet-50, resnet-101 and resnet-152'''
     expansion = 4
 
     def __init__(self, inplanes, planes, stride=1, downsample=None):
